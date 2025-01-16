@@ -42,7 +42,7 @@ public class Staff {
     }
 
     public void increaseSalary(double percentage){
-        this.setGrossSalary(this.getGrossSalary()+(this.getGrossSalary()*(percentage/100)));
+        this.setGrossSalary(this.getGrossSalary()*(1+(percentage/100)));
     }
 
     public String toString(){
