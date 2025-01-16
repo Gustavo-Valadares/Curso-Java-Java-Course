@@ -35,7 +35,7 @@ public class Student {
 
     }
 
-    public double arithmeticMean(){
+    public double average(){
         double am = 0;
         for(double grade : grades){
             am += grade;
