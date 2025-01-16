@@ -1,22 +1,22 @@
-// receives height and width of a triangle and shows its perimeter, area and diagonal
+// receives height and width of a rectangle and shows its perimeter, area and diagonal
 package basics.section8.ex1;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float heigth;
-        float width;
-        float area;
-        float perimeter;
+        double heigth;
+        double width;
+        double area;
+        double perimeter;
         double diagonal;
 
         System.out.println("|---Calculate Rectangle---|");
         System.out.print("Height: ");
-        heigth = sc.nextFloat();
+        heigth = sc.nextDouble();
 
         System.out.print("Width: ");
-        width = sc.nextFloat();
+        width = sc.nextDouble();
 
         Rectangle rectangle = new Rectangle(heigth, width);
 
